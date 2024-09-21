@@ -3,12 +3,12 @@
 import './App.css';
 import { useState } from 'react';
 function App() {
-  let [count,setCount]=useState(0);
+  const [count,setCount]=useState(0);
        const result=()=>{
-       setCount(count=count+1);
+       setCount(count+1);
         };
   const dec=()=>{
-    setCount(count=count-1);
+    setCount(count-1);
   };
 
 const zero=()=>{
